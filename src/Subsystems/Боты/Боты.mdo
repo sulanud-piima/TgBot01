@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ef05b547-5708-4194-be9f-824ba96cb340">
+  <name>Боты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Боты</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.ВходящийHTTPЗапрос</content>
+  <content>Catalog.УчетныеЗаписиТелеграм</content>
+  <content>DataProcessor.ТелеграмБот</content>
+  <content>Constant.ИдентификаторЧата</content>
+  <content>Constant.Токен</content>
+  <content>CommonPicture.romashka</content>
+</mdclass:Subsystem>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4822d66b-671c-4f1c-a8b6-9121bc92cc81">
+  <name>ИдентификаторЧата</name>
+  <synonym>
+    <key>ru</key>
+    <value>Идентификатор чата</value>
+  </synonym>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+</mdclass:CommonForm>

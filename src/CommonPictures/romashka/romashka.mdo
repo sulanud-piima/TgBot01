@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d98f2dd1-aa48-4ef4-a6b8-83388cb9713d">
+  <name>romashka</name>
+  <synonym>
+    <key>ru</key>
+    <value>Romashka</value>
+  </synonym>
+  <availabilityForChoice>true</availabilityForChoice>
+</mdclass:CommonPicture>

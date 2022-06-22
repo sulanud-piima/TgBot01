@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3d9f86a7-6920-403a-986d-cb7878a21594">
+  <producedTypes>
+    <managerType typeId="ea49ef48-ac7b-4496-aa46-d011bc4bb302" valueTypeId="c81294a3-0358-472c-b1fa-e74d7d4d7e94"/>
+    <valueManagerType typeId="a53b1930-2fad-4933-8698-8625e828e498" valueTypeId="110e2085-836b-4157-8526-67733767fbc9"/>
+    <valueKeyType typeId="e7e4b954-7b74-4d69-aff0-79c0b3583a26" valueTypeId="82c39768-f50d-47f1-a687-6f27de1063d8"/>
+  </producedTypes>
+  <name>ИдентификаторЧата</name>
+  <synonym>
+    <key>ru</key>
+    <value>Идентификатор чата</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ИдентификаторЧата</defaultForm>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

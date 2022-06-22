@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="162734c3-3fbe-45b0-8b5c-673f7589b40c">
+  <producedTypes>
+    <objectType typeId="0ba764af-1ea5-4fe4-90c5-e938c43fde47" valueTypeId="68f9fdd1-3e32-4cb1-a33a-a7ada309d61e"/>
+    <refType typeId="c1e1ed3f-b8e6-4c97-8786-a4770fe4fe28" valueTypeId="5f397e15-b91c-49e7-bb9f-891eda337bf0"/>
+    <selectionType typeId="7068d8ff-4a5a-4889-ac90-855cbe55ab60" valueTypeId="adbcc8fc-32b6-4165-9663-8bf50eecd95d"/>
+    <listType typeId="6599c3e8-2df6-4cf3-9c9c-f239830a7250" valueTypeId="d60fbc89-931f-41f2-b39c-b8846f4849ac"/>
+    <managerType typeId="6972b66a-ed06-4fd8-b4a0-478bd5c79923" valueTypeId="d78a0e2b-c9dc-4dda-96b2-b3ae1c7c24f9"/>
+  </producedTypes>
+  <name>ВходящийHTTPЗапрос</name>
+  <synonym>
+    <key>ru</key>
+    <value>Входящий HTTP-запрос</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ВходящийHTTPЗапрос.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ВходящийHTTPЗапрос.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.ВходящийHTTPЗапрос.Form.ФормаСписка</defaultListForm>
+  <posting>Deny</posting>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="22ae2223-49c8-4d71-9989-7c44b7aba999">
+    <name>ТелоЗапроса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тело запроса</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b6cc6dd2-5003-4fa2-bb9b-fb26a6ef7cbf">
+    <name>КодСостояния</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код состояния</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3532e374-c24d-4bea-bd9c-cdbf29d46e96">
+    <name>ИмяМетода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя метода</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f3707c28-e71f-4ef2-a12d-495ec3f78021">
+    <name>ТелоОтвета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тело ответа</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="22b08934-5e3a-454f-97d1-4640227cfd19">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2b145a6a-0b18-4540-864e-c973ccfe0397">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Document>

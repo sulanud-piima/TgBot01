@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6e0d4d8e-f741-4718-9739-40eae1aeeba0">
+  <name>Конфигурация</name>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="c20ae5d5-5b41-4db7-a247-98a303205d4d"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="777feb49-998a-48e0-b101-6a20975ef3cd"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="3babcc68-3310-4e35-9207-63fce41bc2b7"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="dfd1da0a-fd79-4117-9d4f-86da30bf87c8"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="f0fea027-9c90-4118-b552-3e7eac3637be"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="573b836e-180b-4b91-a3cd-e69816eab574"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="04bcc78f-82a6-4c7d-8809-f04067c13e2e"/>
+  <configurationExtensionCompatibilityMode>8.3.20</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.20</compatibilityMode>
+  <languages uuid="585b55ec-bb02-408f-8ed8-daea217257ab">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Боты</subsystems>
+  <commonPictures>CommonPicture.romashka</commonPictures>
+  <commonPictures>CommonPicture.otkritka</commonPictures>
+  <commonPictures>CommonPicture.ytka</commonPictures>
+  <roles>Role.ПолныеПрава</roles>
+  <roles>Role.ИспользованиеБота</roles>
+  <commonModules>CommonModule.ОбщегоНазначенияHTTP</commonModules>
+  <commonModules>CommonModule.Телеграм</commonModules>
+  <httpServices>HTTPService.Боты</httpServices>
+  <constants>Constant.ИдентификаторЧата</constants>
+  <constants>Constant.Токен</constants>
+  <commonForms>CommonForm.Токен</commonForms>
+  <commonForms>CommonForm.ИдентификаторЧата</commonForms>
+  <catalogs>Catalog.УчетныеЗаписиТелеграм</catalogs>
+  <documents>Document.ВходящийHTTPЗапрос</documents>
+  <dataProcessors>DataProcessor.ТелеграмБот</dataProcessors>
+</mdclass:Configuration>

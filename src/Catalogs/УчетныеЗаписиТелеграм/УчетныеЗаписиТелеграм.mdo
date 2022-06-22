@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9bc213e4-2547-4c93-9999-97c367835ca9">
+  <producedTypes>
+    <objectType typeId="0fc06331-53e0-420a-87d9-45ebec0cf6fc" valueTypeId="65f6616b-958a-4f17-8733-9cdf12c46010"/>
+    <refType typeId="3b1fb24a-aedd-4304-beb6-f90697b88cb7" valueTypeId="1d33ba7c-39df-4b8a-a493-cd81e82d8ecc"/>
+    <selectionType typeId="21fc4c6a-5bb9-4a4e-a370-c2058d305db7" valueTypeId="b37112b4-304e-49b7-9bd9-82175ff1f1d4"/>
+    <listType typeId="ee093c5b-7f7c-418f-af52-44e52e9799ef" valueTypeId="df25bc5c-4d7f-4084-b6de-485352cca6cf"/>
+    <managerType typeId="19199515-59da-4283-b1c6-dd50d3fcc3bc" valueTypeId="5bf4ec4c-1f72-42b7-a3f8-c94a784dfb07"/>
+  </producedTypes>
+  <name>УчетныеЗаписиТелеграм</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учетные записи телеграм</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.УчетныеЗаписиТелеграм.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.УчетныеЗаписиТелеграм.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>25</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.УчетныеЗаписиТелеграм.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.УчетныеЗаписиТелеграм.Form.ФормаСписка</defaultListForm>
+  <forms uuid="0c210257-464d-4754-9910-df81b98577f4">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f731d317-2834-45eb-afaa-da1cebc6833b">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

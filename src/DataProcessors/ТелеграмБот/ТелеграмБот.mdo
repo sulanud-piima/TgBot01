@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b60ffb5b-5783-411b-b7d1-c4f6e6819ff1">
+  <producedTypes>
+    <objectType typeId="7d252189-ce1c-4533-bc20-e71e35adab88" valueTypeId="b14e24cf-0f9c-4bc3-8e0a-a7ae75d0ebd2"/>
+    <managerType typeId="94514561-4762-4e01-ac65-f2fd146b60d4" valueTypeId="44c5223e-e635-4cb7-816f-a0e23a611156"/>
+  </producedTypes>
+  <name>ТелеграмБот</name>
+  <synonym>
+    <key>ru</key>
+    <value>Телеграм бот</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ТелеграмБот.Form.Форма</defaultForm>
+  <forms uuid="88b23a56-3e47-48d1-bc43-3c53652ed81d">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>
